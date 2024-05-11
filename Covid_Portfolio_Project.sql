@@ -1,3 +1,6 @@
+CREATE DATABASE covid_death;
+CREATE DATABASE covid_vaccinations;
+
 SELECT 'South America' AS region, STR_TO_DATE(date, '%d-%m-%Y') AS converted_date
 FROM covid_deaths.southamerica_covid_deaths
 UNION ALL
